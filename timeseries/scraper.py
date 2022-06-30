@@ -30,7 +30,9 @@ def get_gecko_data(coin):
             + "/historical_data?start_date=2021-05-01&end_date=2022-06-30"
         ),
         "sec-ch-ua": (
-            '".Not/A)Brand";v="99", ' '"Google Chrome";v="103", ' '"Chromium";v="103"'
+            '".Not/A)Brand";v="99", '
+            '"Google Chrome";v="103", '
+            '"Chromium";v="103"'
         ),
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": '"Windows"',
