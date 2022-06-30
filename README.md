@@ -1,4 +1,4 @@
-﻿# Time Series Analysis of crypto data
+﻿# Time Series Analysis of Crypto Data
  This repo is created for my paper in the module "Analysis of Economic and Financial Time Series".
  
  ### Target
