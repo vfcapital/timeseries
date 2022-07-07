@@ -69,7 +69,7 @@ def analyse_final_model(series, arima_order):
         predictions.append(yhat)
         history.append(test[t])
     series["test"] = test
-    plt.plot(series["test"], series.index)
+    plt.plot(y=series["test"], x=series.index)
     plt.plot(predictions, color="red")
     plt.title(
         "Coin: " + str(series.name) + " - Forecasting ARIMA" + str(arima_order)
