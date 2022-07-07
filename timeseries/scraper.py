@@ -1,7 +1,8 @@
-import requests
-from io import BytesIO
-import pandas as pd
 from datetime import datetime
+from io import BytesIO
+
+import pandas as pd
+import requests
 
 
 def parse_dates(month, year):

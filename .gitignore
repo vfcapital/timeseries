@@ -1,0 +1,8 @@
+# ignore all logs
+*.log
+
+# ignore all cache files
+*cache*
+
+# ignore all cache files
+*test*
